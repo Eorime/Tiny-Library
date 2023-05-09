@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>✨A <em>Very</em> Simple Library✨</h1>
+    <div id="btn">
+      <button id="add">Add A New Book</button>
+    </div>
+    <form id="form">
+      <fieldset>
+        <legend>Add A New Book</legend>
+        <ul>
+          <li>
+            <label for="booktitle">Book Title 📖</label>
+            <input type="text" id="booktitle" />
+          </li>
+          <li>
+            <label for="author">Author 🖊️</label>
+            <input type="text" id="author" />
+          </li>
+          <li>
+            <label for="pages">Pages 📄</label>
+            <input type="text" id="pages" />
+          </li>
+          <li>
+            <label for="read">Read:</label>
+            <input type="checkbox" id="read" />
+          </li>
+          <li>
+            <div id="subm">
+              <input type="submit" id="submit" value = "Add" /></button>
+            </div>
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+    <div id="library"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
